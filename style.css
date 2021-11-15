@@ -1,0 +1,144 @@
+#sidebar {
+  z-index: 9999;
+  overflow-y: scroll;
+  opacity: 0.9;
+}
+
+@media screen and (min-width: 30em) {
+  #sidebar {
+    max-height: calc(100vh - 2rem);
+    height: auto;
+    width: 460px;
+  }
+}
+
+.markerActive {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  /* Move up 4px and left 4px to account for border,
+    to make sure the active marker doesn't move */
+  margin: -24px 0 0 -24px !important;
+}
+
+.leaflet-marker-icon:hover {
+  opacity: 0.8;
+}
+
+a {
+  color: #528e9e;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.leaflet-control {
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 2px !important;
+}
+
+.leaflet-control-layers-expanded {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+.leaflet-control-layers-expanded label {
+  cursor: pointer;
+}
+
+.leaflet-control-layers-expanded label:hover {
+  opacity: 0.8;
+}
+
+.home-button {
+  height: 24px;
+  width: 24px;
+  background-color: white;
+  padding: 3px;
+  cursor: pointer !important;
+  border: 1px solid black;
+}
+
+.home-button:hover {
+  background-color: rgb(239, 239, 239);
+}
+
+#gallery {
+  position: relative;
+}
+
+.material-icons.arrow {
+  font-size: 60px;
+  position: relative;
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  text-shadow: 0 0 4px gray;
+}
+
+.material-icons.arrow.arrow-left {
+  left: 0;
+}
+
+.material-icons.arrow.arrow-right {
+  right: 0;
+  margin-right: 60px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgb(200, 200, 200);
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+td,
+th {
+  border: 1px solid rgb(65, 50, 50);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(255, 255, 255);
+}
+
+td {
+  text-align: left;
+}
+
+/* tr:nth-child(even) td {
+  background-color: rgb(219, 195, 195);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(255, 255, 255);
+} */
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.info h4 {
+  margin: 0 0 5px;
+  color: #777;
+}
+
+.legend {
+  line-height: 18px;
+  color: #555;
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}

@@ -1,0 +1,8 @@
+Webmap per KPH v1
+1.	Logo kph dengan dlhk di bagian atas side bar
+2.	Description berupa table keterangan tentang KPH atau hutan adat
+3.	Add more information footer initial sidebar yaitu sumber atau referensi table keterangan KPH/hutan adat
+4.	Simbologi terdapat 3 jenis yaitu basemaps, pohon muda/pohon dewasa, dan jenis lahan, lokasi diatas
+5.	Update sidebar perpohon dimulai dari header kode pohon, nama lokal (nama latin), 4 foto pohon, sumber foto, tabel keterangan pohon, adopsi sekarang, dan tambahan informasi berupa sumber data
+6.	Search button untuk kode pohon dan nama pohon
+7.	Link berdasarkan id pohon
